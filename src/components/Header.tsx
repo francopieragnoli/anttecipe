@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { BRAND } from "@/lib/constants";
+import Image from "next/image";
 import WhatsAppButton from "./WhatsAppButton";
 
 export default function Header() {
@@ -22,14 +22,15 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-12 flex items-center justify-between h-16 md:h-20">
-        <a href="#" className="flex items-center gap-2">
-          <span
-            className={`text-xl md:text-2xl font-black tracking-tight transition-colors ${
-              scrolled ? "text-dark" : "text-white"
-            }`}
-          >
-            {BRAND.name}
-          </span>
+        <a href="#" className="flex items-center gap-2 h-full py-2">
+          <Image
+            src={scrolled ? "/white-bg.png" : "/blue-bg.png"}
+            alt="Anttecipe"
+            width={200}
+            height={80}
+            className="h-full w-auto transition-opacity duration-300"
+            priority
+          />
         </a>
 
         <nav className="hidden md:flex items-center gap-8">
