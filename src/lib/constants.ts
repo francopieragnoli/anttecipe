@@ -1,4 +1,4 @@
-export const WHATSAPP_NUMBER = "5511974747509"; // Placeholder - substituir pelo número real
+export const WHATSAPP_NUMBER = "5511914145784"; // Placeholder - substituir pelo número real
 
 export const BRAND = {
   name: "Anttecipe",

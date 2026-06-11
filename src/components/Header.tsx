@@ -26,8 +26,8 @@ export default function Header() {
           <Image
             src={scrolled ? "/white-bg.png" : "/blue-bg.png"}
             alt="Anttecipe"
-            width={200}
-            height={80}
+            width={300}
+            height={120}
             className="h-full w-auto transition-opacity duration-300"
             priority
           />
