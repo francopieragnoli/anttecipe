@@ -3,7 +3,7 @@ import SectionWrapper from "./SectionWrapper";
 
 const STATS = [
   { icon: Briefcase, value: "+5 anos", label: "De experiência" },
-  { icon: Users, value: "50%", label: "o salário vitalício" },
+  { icon: Users, value: "50%", label: "Do salário vitalício" },
   { icon: Award, value: "97%", label: "Taxa de sucesso" },
 ];
 

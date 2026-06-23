@@ -1,7 +1,7 @@
 export const WHATSAPP_NUMBER = "5511914145784"; // Placeholder - substituir pelo número real
 
 export const BRAND = {
-  name: "Anttecipe",
+  name: "Anttecipe.com",
   tagline: "Assessoria especializada em auxílio-acidente",
   description:
     "Teve o auxílio-acidente negado pelo INSS? Nossos especialistas recuperam seu benefício. Análise gratuita e você só paga se ganhar.",
@@ -157,6 +157,16 @@ export const FAQ_ITEMS = [
     question: "Qual a diferença entre auxílio-doença e auxílio-acidente?",
     answer:
       "O auxílio-doença é pago enquanto o trabalhador está temporariamente incapaz de trabalhar e não pode ser acumulado com salário. Já o auxílio-acidente é pago como indenização pela redução permanente da capacidade de trabalho e pode ser recebido junto com o salário.",
+  },
+  {
+    question: "Posso continuar trabalhando?",
+    answer:
+      "Sim. Você pode continuar trabalhando e recebendo também o seu auxílio acidente.",
+  },
+  {
+    question: "Serei prejudicado na minha empresa?",
+    answer:
+      "Não. Você não será prejudicado na sua empresa. Quem paga o seu auxílio acidente é o INSS e não a empresa onde você trabalha ou já trabalhou.",
   },
 ];
 
