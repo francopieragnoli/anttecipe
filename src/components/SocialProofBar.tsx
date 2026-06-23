@@ -11,19 +11,19 @@ function AnimatedMetric({
   label,
   isActive,
 }: {
-  value: number;
+  value: number | null;
   prefix: string;
   suffix: string;
   label: string;
   isActive: boolean;
 }) {
-  const animatedValue = useAnimatedNumber(value, isActive);
+  const animatedValue = useAnimatedNumber(value ?? 0, isActive);
 
   return (
     <div className="text-center px-4 py-3">
       <div className="text-2xl md:text-3xl font-black text-white">
         {prefix}
-        {animatedValue.toLocaleString("pt-BR")}
+        {value !== null && animatedValue.toLocaleString("pt-BR")}
         {suffix}
       </div>
       <div className="text-sm text-white/70 mt-1 font-medium">{label}</div>

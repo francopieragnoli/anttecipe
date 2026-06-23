@@ -2,8 +2,8 @@ import { Award, Users, Briefcase } from "lucide-react";
 import SectionWrapper from "./SectionWrapper";
 
 const STATS = [
-  { icon: Briefcase, value: "+10 anos", label: "De experiência" },
-  { icon: Users, value: "+5.000", label: "Clientes atendidos" },
+  { icon: Briefcase, value: "+5 anos", label: "De experiência" },
+  { icon: Users, value: "50%", label: "o salário vitalício" },
   { icon: Award, value: "97%", label: "Taxa de sucesso" },
 ];
 
@@ -44,10 +44,9 @@ export default function AboutSection() {
           </h2>
           <p className="text-lg text-muted leading-relaxed mb-6">
             Somos uma equipe multidisciplinar de advogados, peritos e
-            consultores especializados exclusivamente em direito
-            previdenciário. Há mais de 10 anos ajudamos trabalhadores
-            brasileiros a conquistarem os benefícios que o INSS insiste em
-            negar.
+            consultores especializados também em direito
+            previdenciário. Há mais de 5 anos ajudamos trabalhadores
+            brasileiros a conquistarem seus direitos.
           </p>
           <p className="text-lg text-muted leading-relaxed mb-6">
             Nossa abordagem combina conhecimento jurídico aprofundado com
@@ -57,11 +56,9 @@ export default function AboutSection() {
           </p>
           <ul className="space-y-3">
             {[
-              "Registro ativo na OAB",
               "Equipe multidisciplinar (advogados + peritos)",
               "Atendimento em todo território nacional",
-              "Mais de R$ 50 milhões recuperados para nossos clientes",
-            ].map((item) => (
+             ].map((item) => (
               <li key={item} className="flex items-center gap-3 text-body">
                 <span className="w-1.5 h-1.5 bg-accent rounded-full flex-shrink-0" />
                 {item}

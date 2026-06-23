@@ -23,7 +23,7 @@ export default function BenefitsGrid() {
     <SectionWrapper id="beneficios" className="bg-light-bg">
       <div className="text-center mb-16">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-dark leading-tight">
-          Por que mais de 5.000 pessoas{" "}
+          Porque milhares de pessoas{" "}
           <span className="text-primary">confiam em nós</span>
         </h2>
       </div>

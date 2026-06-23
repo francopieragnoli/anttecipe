@@ -8,9 +8,9 @@ export const BRAND = {
 };
 
 export const METRICS = [
-  { value: 5000, prefix: "+", suffix: "", label: "Clientes atendidos" },
+  { value: null, prefix: "Milhares", suffix: "", label: "Clientes atendidos" },
   { value: 97, prefix: "", suffix: "%", label: "Taxa de aprovação" },
-  { value: 50, prefix: "R$ ", suffix: "M+", label: "Recuperados" },
+  { value: null, prefix: "Resgate", suffix: "", label: "De valores atrasados" },
 ];
 
 export const STEPS = [

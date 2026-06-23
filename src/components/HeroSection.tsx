@@ -36,8 +36,8 @@ export default function HeroSection() {
 
           <p className="text-lg md:text-xl text-white/70 max-w-2xl mb-10 leading-relaxed">
             Recupere o auxílio-acidente que o INSS negou. Nossa equipe
-            especializada já ajudou mais de 5.000 trabalhadores a conquistarem
-            seus direitos.
+            especializada já ajudou mais de 4.295 trabalhadores a conquistarem
+            seus processos.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
